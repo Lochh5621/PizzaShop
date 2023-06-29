@@ -49,8 +49,8 @@ namespace PizzaShopping.Data
             {
                 List<Account> accounts = new List<Account>
                 {
-                    new Account { FullName = "Le Minh Dung", Password = "123456", Username = "dungminhle", Type = AccountType.Staff},
-                    new Account { FullName = "Le Thanh Dat", Password = "123456", Username = "nashdatle", Type = AccountType.Staff}
+                    new Account { FullName = "Ha Huu Loc", Password = "123456", Username = "hahuuloc", Type = AccountType.Staff},
+                    new Account { FullName = "Nguyen Phuoc Thanh", Password = "123456", Username = "thanh", Type = AccountType.Staff}
                 };
                 context.Accounts.AddRange(accounts);
                 context.SaveChanges();
@@ -101,8 +101,8 @@ namespace PizzaShopping.Data
             {
                 List<Account> accounts = new List<Account>
                 {
-                    new Account { FullName = "Le Minh Dung", Password = "123456", Username = "dungminhle", Type = AccountType.Staff},
-                    new Account { FullName = "Le Thanh Dat", Password = "123456", Username = "nashdatle", Type = AccountType.Staff}
+                    new Account { FullName = "Ha Huu Loc", Password = "123456", Username = "hahuuloc", Type = AccountType.Staff},
+                    new Account { FullName = "Nguyen Phuoc Thanh", Password = "123456", Username = "thanh", Type = AccountType.Staff}
                 };
                 context.Accounts.AddRange(accounts);
                 context.SaveChanges();
